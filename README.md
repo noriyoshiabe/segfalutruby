@@ -1,22 +1,22 @@
 # Segfalutruby
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/segfalutruby`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+Force segmentation fault from ruby C extension
 
 ## Installation
 
 Install the gem and add to the application's Gemfile by executing:
 
-    $ bundle add segfalutruby
+    $ bundle add segfalutruby --github noriyoshiabe/segfalutruby
 
 If bundler is not being used to manage dependencies, install the gem by executing:
 
-    $ gem install segfalutruby
+    $ gem install specific_install
+    $ gem specific_install -l https://github.com/noriyoshiabe/segfalutruby
 
 ## Usage
 
-TODO: Write usage instructions here
+    require "segfalutruby"
+    Segfalutruby.exec
 
 ## Development
 
